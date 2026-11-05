@@ -1,0 +1,23 @@
+{
+  "name": "liberusoftware/ecommerce-retail-locations-filament",
+  "description": "Retail Locations Filament presentation module skeleton",
+  "type": "liberu-module",
+  "license": "MIT",
+  "require": {
+    "php": "^8.5",
+    "filament/filament": "^5.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Liberu\\Presentation\\Capability3c30094274fc\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": "@php -l src/CapabilityPlugin.php"
+  },
+  "extra": {
+    "liberu": {
+      "name": "ecommerce-retail-locations-filament"
+    }
+  }
+}
